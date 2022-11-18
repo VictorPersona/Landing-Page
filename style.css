@@ -1,0 +1,121 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+} 
+
+.right-nav{
+    display: flex;
+    gap: 30px;
+}
+
+.second{ margin: 0 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    border: 2px;
+   background-color: pink;
+   display: flex;
+   align-items: center;
+   padding: 90px 150px ;
+   flex-shrink: 0;
+}
+
+.heading-one{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.midone{
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 250px;
+  
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    height: 25px;
+    width:90px;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 230px;
+}
+
+img{
+    width: 150px;   background-color: aquamarine;
+    height: 150px;
+}
+
+.ltext{  width: 150px;
+text-align: center;
+}
+
+.container{
+    display: flex;
+    background-color: #E5E7EB;
+    height: 200px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.quote{
+    width: 700px;
+    margin-bottom: 0;
+}
+
+h4{ width: 700px;
+    text-align: end;
+    margin-top: 10px;
+}
+
+
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px ;
+    margin-bottom: 60px;
+    background-color: #3882f6;
+    width: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top:20px ;
+    padding-bottom: 20px
+}
+ 
+.elder{
+    margin: 2px solid white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
